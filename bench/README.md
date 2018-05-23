@@ -10,5 +10,6 @@ in the directory `input/Logics/`):
 * `qf_shid_sat`: sat problems for `QF_SHID` logic, SL-COMP'14 division `UDB_sat`
 * `qf_shid_entl`: entailment problems for `QF_SHID` logic, SL-COMP'14 division `UDB_entl`
 * `qf_shlid_entl`: entailment problems for `QF_SHLID` logic, SL-COMP'14 division `FDB_entl`
+* `shid_entl`: entailment problems for `SHID` logic (**NEW**)
 
 
