@@ -1,14 +1,14 @@
-# ----------------------------------------------------------------------
+# 
 #              CALL FOR COMMENTS, BENCHMARKS, AND SOLVERS
-# ----------------------------------------------------------------------
+#
 #                              SL-COMP'18
-#        2nd International Competition of Solvers on Separation Logic
-#                        at ADSL@FLOC'18, Oxford, UK
+##        2nd International Competition of Solvers on Separation Logic
+##                        at ADSL@FLOC'18, Oxford, UK
 #
-#	  http://adsl.univ-grenoble-alpes.fr/index.html#SL-COMP
+##	  http://adsl.univ-grenoble-alpes.fr/index.html#SL-COMP
 #
-#                 https://github.com/sl-comp/SL-COMP18
-# ----------------------------------------------------------------------
+##                 https://github.com/sl-comp/SL-COMP18
+# 
 
 
 Separation Logic (SL) is an established and fairly popular Hoare logic

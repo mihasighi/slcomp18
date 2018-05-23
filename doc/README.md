@@ -2,7 +2,7 @@
 
 Documents related with SL-COMP'18
 
-* web site : https://www.irif.fr/~sighirea/slcomp/2018/
+* web site : https://www.irif.fr/~sighirea/sl-comp/18/
 
 * Call for participation : `CFP.md`
 
