@@ -1,8 +1,8 @@
-#SL-COMP'18#
+# SL-COMP 2018 Repository #
 
 Repository for SL-COMP'18, second edition of the competition of solvers for the theory of Separation Logic.
 
-##Ressources##
+## Content ##
 
 * _bench_ : set of problems used, split in divisions
 * _doc_ : documents related with the competition
@@ -12,7 +12,7 @@ Repository for SL-COMP'18, second edition of the competition of solvers for the 
 * _tools_ : software related with the competition, e.g., parsers, translators, etc.
 
 
-##Contact##
+## Contact ##
 
 See file `CONTACT.md`
 
