@@ -1,17 +1,17 @@
-#A toolsuite for the format of SL-COMP'14#
+# A toolsuite for the format of SL-COMP'14 #
 
-##About##
+## About ##
 
 This is a compiler for the SMT-LIB v2 format proposed for the 
 theory `QF_S` used in SL-COMP'14.
 This format accepts quantifier-free formulas in the symbolic heaps 
 fragment of Separation Logic.
 It is implemented in Flex, Bison and C99, released under the 
-GLPL license (see LICENSE.txt). 
+GLPL license (see `LICENSE.txt`). 
 
 ** This deirectory is a fork of the archive https://www.github.com/mihasighi/smtcomp14-sl/tree/master/smtlib2sl **
 
-##Requires##
+## Requirements ##
 
 To compile:
 
@@ -26,9 +26,9 @@ To compile:
 
 
 
-##Installation##
+## Installation ##
 
-.1) Configuring:
+-1) Configuring:
    - change the `SMTLIB2_PREFIX` variable in the `Makefile.config` file
      with the directory where can be found the `libsmtlib2parser.so`
 
@@ -36,44 +36,45 @@ To compile:
      change the compiler name or the compilation flags for the C compiler
 
 
-.2) Compiling:
+-2) Compiling:
    - do `make` in this directory
 
 
-.3) Install:
+-3) Install:
    - set `HOME` variable, installation is done in `$HOME/bin`
    - do `make install`
 
 
-##Contents##
+## Contents ##
 
-. `LICENSE.txt`: 
+- `LICENSE.txt`: 
   the license file
 
-. `Makefile.config`: 
+- `Makefile.config`: 
   Configuration of compilation
 
-. `Makefile`:
+- `Makefile`:
   Compilation commands
 
-. `smtlib2sl.c`:
+- `smtlib2sl.c`:
   Instantiation of the SMTLIB2 parser to `QF_S`
 
-. `sl.?`:
+- `sl.?`:
   AST of SMTLIB2 expressions and their translation for 
   SL-COMP'14 formulas
 
-. `sl_type.?,sl_var.?,sl_form.?,sl_pred.?, sl_prob.?`:
+- `sl_type.?,sl_var.?,sl_form.?,sl_pred.?, sl_prob.?`:
   AST of SL-COMP'14 formulas and useful functions
 
-. `sl_prob2<f>.?`:
+- `sl_prob2<f>.?`:
   Translation of SL-COMP'14 AST to format <f>
 
-. `sl_vector.h,sl_util.?`:
+- `sl_vector.h,sl_util.?`:
   Useful data structures and utilities
 
-. `smtlib2sl_compile.c`:
+- `smtlib2sl_compile.c`:
   Main entry
 
-. `test1.smt2, test2.smt2, test3.smt2, test4.smt2, test5.smt2, test6.smt2`:
+- `test1.smt2, test2.smt2, test3.smt2, test4.smt2, test5.smt2, test6.smt2`:
   small test inputs 
+

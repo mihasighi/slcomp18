@@ -16,5 +16,5 @@ for the theory of Separation Logic.
 ## Contact ##
 
 See file `CONTACT.md` and visit competition's web site 
-https://www.irif.fr/~sighirea/slcomp/2018/index.html
+https://www.irif.fr/~sighirea/sl-comp/18/
 

@@ -1,4 +1,4 @@
-#SL-COMP'18 Benchmark#
+# SL-COMP'18 Benchmark #
 
 The **set of problems** used for SL-COMP'18
 split in the following _divisions_

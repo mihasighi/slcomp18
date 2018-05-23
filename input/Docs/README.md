@@ -1,4 +1,4 @@
-#SL-COMP'18 Input Format#
+# SL-COMP'18 Input Format #
 
 This directory contains the sources of the document explaining the 
 input format of SL-COMP'18.

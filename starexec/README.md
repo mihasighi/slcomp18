@@ -1,4 +1,4 @@
-#SL-COMP'18 Ressources for StarExec
+# SL-COMP'18 Ressources for StarExec #
 
 Inputs required by StarExec for SL-COMP'18 competition
 
