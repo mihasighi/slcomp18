@@ -170,7 +170,6 @@ namespace smtlib {
 
             sep::SortedVariablePtr translate(const ast::SortedVariablePtr&);
             sep::VariableBindingPtr translate(const ast::VariableBindingPtr&);
-  
         };
 
         typedef std::shared_ptr<Translator> TranslatorPtr;

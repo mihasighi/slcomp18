@@ -1,3 +1,10 @@
+/**
+ * \file        main.cpp
+ * \brief       Entry point for processing SMT-LIB format for Separation Logic
+ * \author      Cristina Serban
+ * \copyright   See 'LICENSE' file.
+ */
+
 #include <cstring>
 #include <iostream>
 #include <memory>
@@ -16,7 +23,7 @@ int main(int argc, char **argv) {
     ExecutionSettingsPtr settings = make_shared<ExecutionSettings>();
     vector<string> files;
 
-    for (int i = 1; i < argc; ) {
+    for (int i = 1; i < argc;) {
         // string argstr = string(argv[i]);
         // smatch sm;
 

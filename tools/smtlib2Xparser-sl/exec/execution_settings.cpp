@@ -1,3 +1,12 @@
+/**
+ * \file        execution_settings.cpp
+ * \brief       Options for the selected tools
+ * 
+ * \author      Cristina Serban
+ * \author      Mihaela Sighireanu
+ * \copyright   See 'LICENSE' file.
+ */
+
 #include "execution_settings.h"
 
 using namespace std;
@@ -6,8 +15,9 @@ using namespace smtlib;
 using namespace smtlib::ast;
 
 ExecutionSettings::ExecutionSettings()
-        : coreTheoryEnabled(true)
-        , inputMethod(INPUT_NONE) {}
+: coreTheoryEnabled(true)
+, inputMethod(INPUT_NONE) {
+}
 
 ExecutionSettings::ExecutionSettings(const ExecutionSettingsPtr& settings) {
     this->coreTheoryEnabled = settings->coreTheoryEnabled;
@@ -37,9 +47,9 @@ void ExecutionSettings::setOutputFormat(char* format) {
     else
         this->outputFormat = SL_COMP18;
 }
-        
+
 std::string ExecutionSettings::toStringOutputFormat() {
-    switch(this->outputFormat) {
+    switch (this->outputFormat) {
         case SL_COMP14: return std::string("SL_COMP14");
         case ASTERIX:
         case CYCLIST:
@@ -48,4 +58,3 @@ std::string ExecutionSettings::toStringOutputFormat() {
     }
     return std::string("SL_COMP18");
 }
-   

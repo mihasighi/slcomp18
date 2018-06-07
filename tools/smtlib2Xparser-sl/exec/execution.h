@@ -1,10 +1,10 @@
 /**
  * \file        execution.h
- * \brief       Handling parsing, type checking and translation.
+ * \brief       Handling parsing, type checking, and translation
  * 
  * \author      Cristina Serban
  * \author      Mihaela Sighireanu
- * \copyright GNU Public License.
+ * \copyright   See 'LICENSE' file.
  */
 
 #ifndef SLCOMP_PARSER_EXECUTION_H
@@ -18,6 +18,7 @@
 #include <memory>
 
 namespace slcompparser {
+
     /** Class handling the execution of the project */
     class Execution {
     private:
@@ -48,7 +49,7 @@ namespace slcompparser {
 
         /** Check the type of the heap constructs in the input file */
         bool checkHeap();
-        
+
         /** Translate an input file in SMT-LIB for Separation Logic */
         bool translate();
     };
