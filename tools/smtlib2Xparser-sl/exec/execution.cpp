@@ -7,6 +7,7 @@
 #include "visitor/ast_syntax_checker.h"
 #include "visitor/ast_sortedness_checker.h"
 #include "visitor/sep_heap_checker.h"
+#include "visitor/sep_pp_slcomp14.h"
 
 #include <iostream>
 
@@ -140,7 +141,7 @@ bool Execution::checkHeap() {
     ast::ScriptPtr astScript = dynamic_pointer_cast<Script>(ast);
     if (astScript) {
         sep::TranslatorPtr transl = make_shared<sep::Translator>();
-        sep::ScriptPtr sepScript = transl->translate(astScript);
+        sepScript = transl->translate(astScript);
 
         sep::HeapCheckerPtr checker = make_shared<sep::HeapChecker>();
         heapCheckSuccessful = checker->check(sepScript);
@@ -152,3 +153,21 @@ bool Execution::checkHeap() {
 
     return heapCheckSuccessful;
 }
+
+bool Execution::translate() {
+    if (!heapCheckAttempted ||
+        !heapCheckSuccessful ||
+        !sepScript) {
+        Logger::error("SmtExecution::translate()", "Stopped due to previous errors");
+        return false;
+    }
+    
+    
+    if (settings->getOutputFormat() == ExecutionSettings::OutputFormat::SL_COMP14) {
+        sep::Pp_SLCOMP14Ptr pp = make_shared<sep::Pp_SLCOMP14>();
+        return pp->run(sepScript);
+    }
+    else
+        return false; // TODO
+}
+

@@ -10,6 +10,7 @@
 #include "stack/ast_symbol_stack.h"
 #include "util/global_typedef.h"
 #include "visitor/ast_sortedness_checker.h"
+#include "sep/sep_abstract.h"
 
 #include <memory>
 
@@ -23,6 +24,9 @@ namespace slcompparser {
         enum InputMethod {
             INPUT_NONE = 0, INPUT_FILE, INPUT_AST
         };
+        enum OutputFormat {
+            SL_COMP14 = 0, ASTERIX, CYCLIST, SLIDE, SL_COMP18
+        };
     private:
         bool coreTheoryEnabled;
         std::string filename;
@@ -31,6 +35,8 @@ namespace slcompparser {
         smtlib::ast::ISortCheckContextPtr sortCheckContext;
 
         InputMethod inputMethod;
+        
+        OutputFormat outputFormat;
     public:
         /** Default constructor */
         ExecutionSettings();
@@ -73,6 +79,16 @@ namespace slcompparser {
         inline void setSortCheckContext(smtlib::ast::ISortCheckContextPtr ctx) {
             this->sortCheckContext = std::move(ctx);
         }
+        
+        /** Set the output format */
+        void setOutputFormat(char* format);
+        
+        /** Get the output format */
+        inline OutputFormat getOutputFormat() { return outputFormat; }
+        
+        /** Print to string format */
+        std::string toStringOutputFormat();
+        
     };
 }
 
