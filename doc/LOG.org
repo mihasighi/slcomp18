@@ -1,0 +1,98 @@
+
+SL-COMP 2018 tasks list
+
+* Communication
+** TODO Web site
+   - [X] New edition import from old
+   - [X] Push calls
+   - [ ] Log ongoing status : format, benchmarks, participants
+   - [ ] Log results
+
+** TODO Mailing list
+   - [X] update new edition
+   - [X] push call
+   - [X] join all participants
+   - [ ] open thread format
+   - [ ] open thread benchmarks
+   - [ ] open thread execution
+   - [ ] open thread evaluation
+   - [ ] open thread report at ADSL
+
+** TODO Documents
+   - [X] input format
+   - [ ] competition rules
+   - [ ] choice of benchmarks
+
+** TODO ADSL 2018
+   - [ ] abstract
+   - [ ] invitation to participants
+   - [ ] report and slides
+
+
+* Benchmarks
+** TODO Call
+   - [X] general call
+   - [ ] individual call to CVC4
+   - [ ] individual call to Comp-SPEN
+   - [ ] individual call to SLOTH & GrassHoper
+   - [ ] individual call to Sleek & Snowbird
+   - [ ] individual call to Inductor 
+ 
+** TODO Update
+   - [X] align with SL-COMP'18 format
+   - [X] rename division with <logic>_<problem>
+   - [X] export info in separate files
+   - [ ] push bench from Snowbird
+   - [ ] push bench from Comp-SPEN
+
+
+* Participants
+** TODO Call
+   - [X] first call
+   - [ ] second call
+** TODO Contact
+   - [X] Asterix
+   - [X] Comp-SPEN
+   - [X] Cyclist
+   - [X] Inductor 
+   - [X] SeLoger
+   - [X] Sleek
+   - [X] Slide
+   - [X] SongBird
+   - [X] SPEN
+   - [X] Le's solvers
+   - [ ] CVC4
+
+** TODO GitHub group sl-comp
+   - [X] invite format participants
+   - [ ] invite participants
+
+** TODO ADSL participation
+   - [ ] send invitation
+   - [ ] programme
+
+
+* Run
+** Tools
+*** DONE Parser
+    - [X] in C++ : smtlib2Xparser-sl
+    - [X] in Ocaml : dolmen-sl
+*** TODO Typer
+    - [X] in C++ : smtlib2Xparser-sl
+    - [ ] in Ocaml
+*** TODO Check logic
+    - [ ] in C++
+    - [ ] in Ocaml
+*** TODO Translator
+    - [X] SL-COMP'18 to SL-COMP'14
+    - [ ] SL-COMP'14 to solvers
+*** TODO Pre-processors
+    - [ ] for each solver
+
+** TODO StarExec
+   - [ ] activate community
+   - [ ] upload benchmarks
+   - [ ] create space for participants
+   - [ ] upload tools
+   - [ ] upload	pre-processors
+   - [ ] define competition
