@@ -3,7 +3,9 @@ SL-COMP 2018 tasks list
 
 * Communication
 ** TODO Web site
-   - [X] New edition import from old
+   - [X] New edition import from old at
+     https://www.irif.fr/~sighirea/sl-comp/18
+
    - [X] Push calls
    - [ ] Log ongoing status : format, benchmarks, participants
    - [ ] Log results
