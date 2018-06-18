@@ -7,7 +7,7 @@ SL-COMP 2018 tasks list
      https://www.irif.fr/~sighirea/sl-comp/18
 
    - [X] Push calls
-   - [ ] Go for Org publishing
+   - [X] Go for Org publishing
    - [ ] Log ongoing status : format, benchmarks, participants
    - [ ] Log results
 
@@ -33,13 +33,13 @@ SL-COMP 2018 tasks list
 
 
 * Benchmarks
-** TODO Call
+** Calls
    - [X] general call
-   - [ ] individual call to CVC4
-   - [ ] individual call to Comp-SPEN
-   - [ ] individual call to SLOTH & GrassHoper
-   - [ ] individual call to Sleek & Snowbird
-   - [ ] individual call to Inductor 
+   - [X] individual call to CVC4
+   - [X] individual call to Comp-SPEN
+   - [X] individual call to SLOTH & GrassHoper
+   - [X] individual call to Sleek & Snowbird
+   - [X] individual call to Inductor 
  
 ** TODO Update
    - [X] align with SL-COMP'18 format
@@ -47,13 +47,23 @@ SL-COMP 2018 tasks list
    - [X] export info in separate files
    - [ ] push bench from Snowbird
    - [ ] push bench from Comp-SPEN
-
-
+   - [X] pull bench from Le
+     + qf_shid_entl: added 13 problems derived from existing ones (1 unsat, 12 sat)
+     + qf_shid_sat: added 9 problems (all unsat)
+     + qf_shlid_entl: added 13 problems, same as qf_shid_entl
+   - [ ] check the proposed benchmarks
+     + Le's benchmark problems
+       . qf_shid_entl/dll-vc14.smt2: inversed antecedent with consequent 
+       . qf_shid_entl/nll-vc[17-19].smt2: not sure on status (missing distinct)
+       . qf_shid_entl/skl2-vc07.smt2: not sure on status
+       . qf_shid_entl/sll-vc01.smt2: why not in qf_shls_entl?
+   
 * Participants
 ** TODO Call
    - [X] first call
    - [ ] second call
-** TODO Contact
+
+** Contact
    - [X] Asterix
    - [X] Comp-SPEN
    - [X] Cyclist
@@ -64,7 +74,9 @@ SL-COMP 2018 tasks list
    - [X] SongBird
    - [X] SPEN
    - [X] Le's solvers
-   - [ ] CVC4
+   - [X] CVC4
+   - [X] Harrsh
+   - [X] Sloth
 
 ** TODO GitHub group sl-comp
    - [X] invite format participants
@@ -73,7 +85,6 @@ SL-COMP 2018 tasks list
 ** TODO ADSL participation
    - [ ] send invitation
    - [ ] programme
-
 
 * Run
 ** Tools
