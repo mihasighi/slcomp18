@@ -7,6 +7,7 @@ SL-COMP 2018 tasks list
      https://www.irif.fr/~sighirea/sl-comp/18
 
    - [X] Push calls
+   - [ ] Go for Org publishing
    - [ ] Log ongoing status : format, benchmarks, participants
    - [ ] Log results
 
@@ -14,7 +15,7 @@ SL-COMP 2018 tasks list
    - [X] update new edition
    - [X] push call
    - [X] join all participants
-   - [ ] open thread format
+   - [X] open thread format
    - [ ] open thread benchmarks
    - [ ] open thread execution
    - [ ] open thread evaluation
@@ -87,7 +88,7 @@ SL-COMP 2018 tasks list
     - [ ] in Ocaml
 *** TODO Translator
     - [X] SL-COMP'18 to SL-COMP'14
-    - [ ] SL-COMP'14 to solvers
+    - [ ] SL-COMP'18 to solvers
 *** TODO Pre-processors
     - [ ] for each solver
 
