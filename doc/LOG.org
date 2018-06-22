@@ -8,7 +8,9 @@ SL-COMP 2018 tasks list
 
    - [X] Push calls
    - [X] Go for Org publishing
-   - [ ] Log ongoing status : format, benchmarks, participants
+   - [X] Log ongoing status : format
+   - [X] Log benchmarks
+   - [ ] Log participants
    - [ ] Log results
 
 ** TODO Mailing list
@@ -17,6 +19,13 @@ SL-COMP 2018 tasks list
    - [X] join all participants
    - [X] open thread format
    - [ ] open thread benchmarks
+     + msg with collected benchmarks
+       . comparison with 2014 (678 prob, 5 divisions) vs 2018 (1279 prob, 12 divisions)
+       . contributors: SongBird, Le, CVC4, Harrsh
+       . fixed benchmarks (status/content)
+       . most of expected results known, but verification needed
+       . this set of problems pushed to StarExec, but may be changed depending
+       on your comments
    - [ ] open thread execution
    - [ ] open thread evaluation
    - [ ] open thread report at ADSL
@@ -93,19 +102,9 @@ SL-COMP 2018 tasks list
        - qf_bsl_sat: 46
        - qf_bsllia_sat: 24
        - bsl_sat: 3
-** Final situation
-   - qf_shls_entl:    292 = 292 (sll0a_entl)
-   - qf_shls_sat:     110 = 110 (sll0a_sat)
-   - qf_shlid_entl:    59 =  46 (FDB_entl) +  13 (Le)
-   - qf_shid_entl:    311 = 120 (UDB_entl) + 132 (SongBird) + 59 (qf_shlid_entl)
-   - qf_shid_sat:      80 =  61 (UDB_sat)  +  10 (Harrsh)   +  9 (Le)
-   - shid_entl:        73 =   9 (UDB_entl) +  64 (SongBird)
-   - qf_shidlia_entl:  75 =  53 (SongBird) +  22 (COMPSPEN)
-   - qf_shidlia_sat:   20 =  20 (COMPSPEN)
-   - shidlia_entl:    167 = 164 (SongBird) + 3?
-   - qf_bsl_sat:       46 =  46 (CVC4)
-   - qf_bsllia_sat:    24 =  24 (CVC4)
-   - bsl_sat:           3 =   3 (CVC4)
+** Final situation: 1279 problems
+  - execute bench/do-summary.sh
+  - then press C-c + for column #problems
 
 * Participants
 ** TODO Call
