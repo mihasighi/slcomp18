@@ -48,8 +48,8 @@ SL-COMP 2018 tasks list
    - [X] individual call to Comp-SPEN
    - [X] individual call to SLOTH & Harrsh
    - [X] individual call to Sleek & Songbird
-   - [X] individual call to Inductor 
- 
+   - [X] individual call to Inductor
+
 ** Re-organise
    - [X] align with SL-COMP'18 format
    - [X] rename division with <logic>_<problem>
@@ -65,10 +65,14 @@ SL-COMP 2018 tasks list
      	. SHIDLIA_entl : 164 problems
 	. QF_SHIDLIA_entl : 53 problems
    - [X] push bench from Songbird
+   - [X] fix syntax and typing for benchmark Songbird
+     + not used define-funs-rec for mutually defined predicates
+     + use unary '+' and 'and'
    - [X] mine bench from Comp-SPEN
      + 22 problems in SL-COMP'14 format in QF_SLIDLIA_entl
      + 20 problems in SL-COMP'14 format in QF_SLIDLIA_sat
    - [X] push bench from Comp-SPEN
+     + update status given the mail of Zhilin
    - [X] push bench from Harrsh, >= 10 sat problems in qf_shid
      + dll: classic dll definition
      + dltree: cell similar to qf_shid_entl/tree-pp-*, different defs
@@ -88,16 +92,17 @@ SL-COMP 2018 tasks list
      + qf_shlid_entl: added 13 problems, same as qf_shid_entl
    - [X] check the proposed benchmarks
      + Le's benchmark problems
-       . qf_shid_entl/dll-vc14.smt2: inversed antecedent with consequent 
-       . qf_shid_entl/nll-vc[17-19].smt2: not sure on status (missing distinct)
-       . qf_shid_entl/skl2-vc07.smt2: not sure on status
-       . qf_shid_entl/sll-vc01.smt2: why not in qf_shls_entl?
+       - qf_shid_entl/dll-vc14.smt2: inversed antecedent with consequent 
+       - qf_shid_entl/nll-vc[17-19].smt2: not sure on status (missing distinct)
+       - qf_shid_entl/skl2-vc07.smt2: not sure on status
+       - qf_shid_entl/sll-vc01.smt2: why not in qf_shls_entl?
+       - problems with define-funs-rec and unary ops for '+' and 'and'
    - [X] check and push benchmark from CVC4
      + logic declared SEPLOGLIA for 74 problems but
-     	- only 3 with 1 exists in consequent so even if check-sat the problem is no QF
-	  . =dispose_manual/dispose-iter-3.smt2=
-     	- only 24 with Int
-	- 20 with wand and no nt
+       - only 3 with 1 exists in consequent so even if check-sat the problem is no QF
+	 . =dispose_manual/dispose-iter-3.smt2=
+       - only 24 with Int
+       - 20 with wand and no nt
      + split over
        - qf_bsl_sat: 46
        - qf_bsllia_sat: 24
@@ -107,9 +112,9 @@ SL-COMP 2018 tasks list
   - then press C-c + for column #problems
 
 * Participants
-** TODO Call
+** DONE Call
    - [X] first call
-   - [ ] second call
+   - [X] second call
 
 ** Contact
    - [X] Asterix
