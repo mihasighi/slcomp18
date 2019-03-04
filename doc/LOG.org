@@ -2,30 +2,24 @@
 SL-COMP 2018 tasks list
 
 * Communication
-** TODO Web site
+** DONE Web site
    - [X] New edition import from old at
      https://www.irif.fr/~sighirea/sl-comp/18
-
    - [X] Push calls
    - [X] Go for Org publishing
    - [X] Log ongoing status : format
    - [X] Log benchmarks
-   - [ ] Log participants
-   - [ ] Log results
+   - [X] Log participants
+   - [X] Log results
 
 ** TODO Mailing list
    - [X] update new edition
    - [X] push call
    - [X] join all participants
    - [X] open thread format
-   - [ ] open thread benchmarks
-     + msg with collected benchmarks
-       . comparison with 2014 (678 prob, 5 divisions) vs 2018 (1279 prob, 12 divisions)
-       . contributors: SongBird, Le, CVC4, Harrsh
-       . fixed benchmarks (status/content)
-       . most of expected results known, but verification needed
-       . this set of problems pushed to StarExec, but may be changed depending
-       on your comments
+   - [X] open thread benchmarks
+   - [ ] open thread solvers
+   - [ ] mailing list of contacts
    - [ ] open thread execution
    - [ ] open thread evaluation
    - [ ] open thread report at ADSL
@@ -36,13 +30,14 @@ SL-COMP 2018 tasks list
    - [ ] choice of benchmarks
 
 ** TODO ADSL 2018
-   - [ ] abstract
-   - [ ] invitation to participants
-   - [ ] report and slides
+   - [X] abstract
+   - [X] invitation to participants
+   - [ ] report 
+   - [X] slides
 
 
 * Benchmarks
-** Calls
+** DONE Calls
    - [X] general call
    - [X] individual call to CVC4
    - [X] individual call to Comp-SPEN
@@ -116,28 +111,47 @@ SL-COMP 2018 tasks list
    - [X] first call
    - [X] second call
 
-** Contact
+** DONE Contact
    - [X] Asterix
+     + Juan Antonio Navarro Pérez <juannavarroperez@gmail.com>
+       Andrey Rybalchenko <rybal@microsoft.com>
    - [X] Comp-SPEN
+     + Zhilin Wu <wuzl@ios.ac.cn> and Chong Gao <gaochong@ios.ac.cn>
+     + qf_shidlia_sat, qf_shidlia_entl
    - [X] Cyclist
-   - [X] Inductor 
-   - [X] SeLoger
-   - [X] Sleek
-   - [X] Slide
-   - [X] SongBird
-   - [X] SPEN
-   - [X] Le's solvers
+     + Nikos Gorogiannis <nikos.gorogiannis@gmail.com>
    - [X] CVC4
+     + Andrew J. Reynolds <andrew.j.reynolds@gmail.com>
    - [X] Harrsh
+     + Jens Katelaan <jkatelaan@forsyte.at>
+     + qf_shid_sat, qf_shls_sat
+   - [X] Inductor
+     + Cristina Serban <Cristina.Serban@univ-grenoble-alpes.fr> and 
+       Radu Iosif <radu.iosif@univ-grenoble-alpes.fr>
+   - [X] S2S
+     + Le Quang Loc <lequangloc@gmail.com>
+     + all divisions except bsl
+   - [X] SeLoger
+     - NO
+   - [X] Sleek
+     + Benedict Lee <benedictleejh@gmail.com>, Prof. Wei-Ngan Chin and Prof. Siau-Cheng Khoo
+   - [X] Slide
+     + Adam Rogalewicz <rogalew@fit.vutbr.cz>
    - [X] Sloth
+     + Jens Katelaan <jkatelaan@forsyte.at>
+     + qf_shls_sat, qf_shls_entl, and qfbsl_sat, bsl_sat
+   - [X] SongBird
+     + Ta Quang Trung <taquangtrungvn@gmail.com>, Prof. Wei-Ngan Chin and Prof. Siau-Cheng Khoo
+   - [X] SPEN
+     + Mihaela Sighireanu <mihaela.sighireanu@gmail.com>
 
 ** TODO GitHub group sl-comp
    - [X] invite format participants
    - [ ] invite participants
 
-** TODO ADSL participation
-   - [ ] send invitation
-   - [ ] programme
+** DONE ADSL participation
+   - [X] send invitation
+   - [X] programme
 
 * Run
 ** Tools
@@ -153,13 +167,25 @@ SL-COMP 2018 tasks list
 *** TODO Translator
     - [X] SL-COMP'18 to SL-COMP'14
     - [ ] SL-COMP'18 to solvers
-*** TODO Pre-processors
-    - [ ] for each solver
+*** DONE Pre-processors
+    - [X] for each solver define a 'process' script
+    - [X] compile on StarExec VM smtlib2sl/compile
+    - [X] compile on StarExec VM smtlib2Xparser/sl-parser
+    - [X] mail for each solver pre-processor
+
+*** DONE Post-processors
+    - [X] copy from SMT-COMP
+      + SMT-COMP 2014 : counts correct answers and not set to 0 if wrong answer
+      + SMT-COMP 2018 : counts correct answers only if no wrong answer
 
 ** TODO StarExec
-   - [ ] activate community
-   - [ ] upload benchmarks
-   - [ ] create space for participants
+   - [ ] upload VM with node configuration
+   - [X] activate community
+   - [X] upload benchmarks
+   - [X] create space for participants
    - [ ] upload tools
    - [ ] upload	pre-processors
+   - [ ] upload post-processors
+   - [ ] test running jobs
    - [ ] define competition
+
